@@ -5,7 +5,6 @@
 #		self.content = content
 #		self.date = date
 
-
 from app import db
 
 
