@@ -1,0 +1,9 @@
+<h1> Add a new user by filling out this form: </h1>
+	<form action="" method="post" name="newuser">
+		{{form.hidden_tag()}}
+		First Name: {{ form.firstname(size=30) }}
+		<br>Last Name: {{ form.lastname(size=30) }}
+		<br>User Name: {{ form.username(size=30) }}
+		<br><input type="submit" value="I'm done! Add me!">
+		</form>
+

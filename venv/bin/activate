@@ -39,7 +39,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="/home/jasontowns/Desktop/Swamper_App/venv"
+VIRTUAL_ENV="/home/jasontowns/Training/Practice_App/venv"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
